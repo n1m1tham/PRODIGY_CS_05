@@ -22,11 +22,15 @@ Use pip to install the `scapy` library:
    
    ```bash
    pip3 install scapy
-   
+   ```
 Clone the Repository:
    
-```bash
+   ```bash
    git clone https://github.com/your-username/PRODIGY_CS_05.git
    cd PRODIGY_CS_05
-	
-   python3 packet_sniffer.py
+   ```
+The script must be run with elevated privileges to access the network interface:
+   ```bash
+   sudo python3 packet_sniffer.py
+   ```
+
